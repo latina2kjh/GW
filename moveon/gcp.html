@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<!-- Mirrored from www.hokuriku.ed.jp/moveon/gcp.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Mar 2025 11:27:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8">
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PQD24W7');</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M5ZBK62ZJ5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M5ZBK62ZJ5');
+</script>
+<meta name="keywords" content="北陸,学園,高等学校,福井,教育">
+<meta name="description" content="北陸学園 北陸高等学校のサイトです。北陸高校は、こころ、個性、夢。社会を担う人材の育成を目指します。">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../themes/hokuriku2017/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="../themes/hokuriku2017/apple-touch-icon-precomposed.png">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="../rss2.xml" />
+<link href="../themes/system/css/acms-admin.min.css" rel="stylesheet">
+<link href="../themes/system/css/acms.min.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="../js/library/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../acmsc812.js?domains=www.hokuriku.ed.jp&amp;jsDir=js/&amp;themesDir=/themes/&amp;bid=1&amp;jQuery=1.11.1&amp;jQueryMigrate=off&amp;umfs=50M&amp;pms=50M&amp;mfu=20&amp;scriptRoot=/" charset="UTF-8" id="acms-js"></script>
+<link rel="shortcut icon" href="../themes/hokuriku2017/favicon.ico" >
+<link href="../themes/hokuriku2017/css/bootstrap.min.css" rel="stylesheet">
+<link href="../themes/hokuriku2017/css/bootstrap.css" rel="stylesheet">
+<link href="../themes/hokuriku2017/css/bootstrap-theme.css" rel="stylesheet">
+<link href="../themes/hokuriku2017/css/bootstrap-theme.min.css" rel="stylesheet">
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../themes/hokuriku2017/js/bootstrap.min.js"></script>
+<script src="../themes/hokuriku2017/js/bootstrap.js"></script>
+<!--[if IE]>
+<script src="/themes/hokuriku2017/js/html5.js"></script>
+<script src="/themes/hokuriku2017/js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../themes/hokuriku2017/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../themes/hokuriku2017/js/jquery.droppy.js"></script>
+<script type="text/javascript" src="../themes/hokuriku2017/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="../themes/hokuriku2017/js/jquery.dlmenu.js"></script>
+<script type="text/javascript" src="../themes/hokuriku2017/js/heightLine.js"></script>
+<script type="text/javascript" src="../themes/hokuriku2017/js/common.js"></script>
+<link href="../themes/hokuriku2017/js/slick/slick.css" rel="stylesheet" />
+<link href="../themes/hokuriku2017/js/slick/slick-theme.css" rel="stylesheet" />
+<script type="text/javascript" src="../themes/hokuriku2017/js/slick/slick.min.js"></script>
+<link href="../themes/hokuriku2017/css/common.css" rel="stylesheet" />
+<link href="../themes/hokuriku2017/css/print.css" rel="stylesheet" media="print"/>
+<script>
+$(function(){
+	$("#gnav ul").droppy();
+	$('#gnavSp').dlmenu({
+		animationClasses : { classin : 'dl-animate-in-5', classout : 'dl-animate-out-5' }
+	});
+});
+
+</script>
+<title>グローバルチャレンジプログラム｜北陸高等学校</title>
+<link href="../themes/hokuriku2017/css/moveon.css" rel="stylesheet">
+<script>
+	$(function(){
+		$('#loopslider').each(function(){
+			var loopsliderWidth = $(this).width();
+			var loopsliderHeight = $(this).height();
+			$(this).children('ul').wrapAll('<div id="loopslider_wrap"></div>');
+
+			var listWidth = $('#loopslider_wrap').children('ul').children('li').width();
+			var listCount = $('#loopslider_wrap').children('ul').children('li').length;
+
+			var loopWidth = (listWidth)*(listCount)/2; //写真の枚数を倍にしたので、1ループの幅を半分に
+
+			$('#loopslider_wrap').css({
+				top: '0',
+				left: '0',
+				width: ((loopWidth) *2),
+				height: (loopsliderHeight),
+				overflow: 'hidden',
+				position: 'absolute'
+			});
+
+			$('#loopslider_wrap ul').css({
+				width: (loopWidth)
+			});
+			loopsliderPosition();
+
+			function loopsliderPosition(){
+				$('#loopslider_wrap').css({left:'0'});
+				$('#loopslider_wrap').stop().animate({left:'-' + (loopWidth) + 'px'},100000,'linear');
+				setTimeout(function(){
+					loopsliderPosition();
+				},1000000);
+			};
+
+			$('#loopslider_wrap ul').clone().appendTo('#loopslider_wrap');
+			$('#loopslider_wrap ul').clone().appendTo('#loopslider_wrap');
+		});
+	});
+	/*
+	$(function(){
+		$('#loopslider2').each(function(){
+			var loopsliderWidth = $(this).width();
+			var loopsliderHeight = $(this).height();
+			$(this).children('ul').wrapAll('<div id="loopslider2_wrap"></div>');
+
+			var listWidth = $('#loopslider2_wrap').children('ul').children('li').width();
+			var listCount = $('#loopslider2_wrap').children('ul').children('li').length;
+
+			var loopWidth = (listWidth)*(listCount)/2; //写真の枚数を倍にしたので、1ループの幅を半分に
+
+			$('#loopslider2_wrap').css({
+				top: '0',
+				left: '0',
+				width: ((loopWidth) *2),
+				height: (loopsliderHeight),
+				overflow: 'hidden',
+				position: 'absolute'
+			});
+
+			$('#loopslider2_wrap ul').css({
+				width: (loopWidth)
+			});
+			loopsliderPosition();
+
+			function loopsliderPosition(){
+				$('#loopslider2_wrap').css({left:'0'});
+				$('#loopslider2_wrap').stop().animate({left:'-' + (loopWidth) + 'px'},200000,'linear');
+				setTimeout(function(){
+					loopsliderPosition();
+				},200000);
+			};
+
+			$('#loopslider2_wrap ul').clone().appendTo('#loopslider2_wrap');
+			$('#loopslider2_wrap ul').clone().appendTo('#loopslider2_wrap');
+		});
+	});*/
+</script>
+<script src="../themes/hokuriku2017/js/jquery.matchHeight.js"></script>
+<script>
+	$(function(){
+		$('.js-matchHeight').matchHeight();
+	});
+</script>
+<link href="https://fonts.googleapis.com/css?family=Mukta:600,700" rel="stylesheet">
+<meta name="generator" content="a-blog cms " />
+</head>
+<body>
+<div id="container">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQD24W7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<header id="header">
+<div class="headIn">
+<div class="headNav">
+<ul class="subNav">
+<li class="hidden-xs"><a href="../access/index.html">アクセス</a></li>
+<li class="hidden-xs"><a href="../request/index.html">資料請求</a></li>
+<li class="hidden-xs"><a href="../contact/index.html">お問い合わせ</a></li>
+</ul>
+<div class="visible-xs gNavCont">
+<a class="navBtn" href="#">
+<span></span>
+<span></span>
+<span></span>
+</a>
+</div>
+<ul class="userNav">
+<li><a href="../student/index.html">在校生/保護者の方へ</a></li>
+<li><a href="../examination/index.html">受験生の方へ</a></li>
+<li><a href="../graduates/index.html">卒業生の方へ</a></li>
+</ul>
+</div>
+<nav id="gnavSp" class="visible-xs navWrap"><ul class="gNav">
+<li class="nav01 nav">
+<p class="ttl">学校紹介</p>
+<ul class="sub">
+<li><a href="../about/greeting/index.html" class="js-viewing-indelible subIn">あいさつ</a></li>
+<li><a href="../about/history/index.html" class="js-viewing-indelible subIn">建学の精神/教育方針/開学140年の歴史</a></li>
+<li><a href="../about/policy/index.html" class="js-viewing-indelible subIn">本学の特色</a></li>
+<li><a href="../about/buddhism/index.html" class="js-viewing-indelible subIn">宗教教育</a></li>
+<li><a href="../about/group/index.html" class="js-viewing-indelible last subIn">グループ/ネットワーク</a></li>
+</ul>
+</li>
+<li class="nav02 nav">
+<p class="ttl">学び/コース</p>
+<ul class="sub">
+<li><a href="../course/super/index.html" class="js-viewing-indelible subIn">特別進学コース</a></li>
+<li><a href="../course/shingaku/index.html" class="js-viewing-indelible subIn">進学コース</a></li>
+<li><a href="../course/normal/index.html" class="js-viewing-indelible subIn">普通コース</a></li>
+<li><a href="../course/information/index.html" class="js-viewing-indelible last subIn">情報処理コース</a></li>
+</ul>
+</li>
+<li class="nav03"><a href="../club/index.html" class="js-viewing-indelible">部活動</a></li>
+<li class="nav04 nav">
+<p class="ttl">学校生活</p>
+<ul class="sub">
+<li><a href="../life/facilities/index.html" class="js-viewing-indelible subIn">施設紹介</a></li>
+<li><a href="../life/event/index.html" class="js-viewing-indelible subIn">年間行事</a></li>
+<li><a href="../calendar/index.html" class="js-viewing-indelible subIn">行事カレンダー</a></li>
+<li><a href="../life/uniform/index.html" class="js-viewing-indelible subIn">制服紹介</a></li>
+<li><a href="../school-trip/index.html" class="js-viewing-indelible subIn">修学旅行</a></li>
+<li><a href="../hokushisai/index.html" class="js-viewing-indelible subIn">北紫祭</a></li>
+<li><a href="../life/oneday/index.html" class="js-viewing-indelible subIn">北陸高生の１日</a></li>
+<li><a href="../cafelife/index.html" class="js-viewing-indelible last subIn">カフェライフメニュー</a></li>
+</ul>
+</li>
+<li class="nav05 nav">
+<p class="ttl">進路/キャリア</p>
+<ul class="sub">
+<li><a href="../career/admission/index.html" class="js-viewing-indelible subIn">大学進学実績</a></li>
+<li><a href="../career/employment/index.html" class="js-viewing-indelible last subIn">就職実績</a></li>
+</ul>
+</li>
+<li class="nav06 nav">
+<p class="ttl">入学案内</p>
+<ul class="sub">
+<li><a href="../admission/guide/index.html" class="js-viewing-indelible subIn">募集要項</a></li>
+<li><a href="../admission/schedule/index.html" class="js-viewing-indelible subIn">入試日程</a></li>
+<li><a href="../admission/openschool/index.html" class="js-viewing-indelible subIn">オープンスクール/学校説明会</a></li>
+<li><a href="../admission/price/index.html" class="js-viewing-indelible subIn">学費について</a></li>
+<li><a href="../admission/qa/index.html" class="js-viewing-indelible last subIn">Q&amp;A</a></li>
+</ul>
+</li>
+<li class="nav07"><a href="../bestrong/index.html" class="js-viewing-indelible">Be Strong. スペシャルインタビュー</a></li>
+<li class="nav08"><a href="index.html" class="js-viewing-indelible">MOVE ON!</a></li>
+<li class="nav09 flNav"><a href="../access/index.html" class="js-viewing-indelible inR">アクセス</a></li>
+<li class="nav10 flNav"><a href="../contact/index.html" class="js-viewing-indelible">資料請求</a></li>
+<li class="nav11 flNav"><a href="../contact/index.html" class="js-viewing-indelible inR">お問い合わせ</a></li>
+<li class="nav12 flNav"><a href="../privacy/index.html" class="js-viewing-indelible">プライバシーポリシー</a></li>
+<li class="nav13"><a href="#">×閉じる</a></li>
+</ul></nav>
+<p class="logo">
+<a href="../index.html"><img src="../themes/hokuriku2017/img/common/logo.png" alt="北陸学園 北陸高等学校" class="hidden-xs"/><img src="../themes/hokuriku2017/img/common/logo-sp.png" alt="北陸学園 北陸高等学校" class="visible-xs"/></a>
+</p>
+</div>
+<nav class="hidden-xs"><div id="gnav">
+<ul>
+<li class="nav01"><a href="../about/index.html" class="js-viewing-indelible">学校紹介</a>
+<ul class="sub">
+<li><a href="../about/greeting/index.html" class="js-viewing-indelible">あいさつ</a></li>
+<li><a href="../about/history/index.html" class="js-viewing-indelible">建学の精神/教育方針/開学140年の歴史</a></li>
+<li><a href="../about/policy/index.html" class="js-viewing-indelible">本学の特色</a></li>
+<li><a href="../about/buddhism/index.html" class="js-viewing-indelible">宗教教育</a></li>
+<li><a href="../about/group/index.html" class="js-viewing-indelible">グループ/ネットワーク</a></li>
+</ul>
+</li>
+<li class="nav02"><a href="../course/index.html" class="js-viewing-indelible">学び/コース</a>
+<ul class="sub">
+<li><a href="../course/super/index.html" class="js-viewing-indelible">特別進学コース</a></li>
+<li><a href="../course/shingaku/index.html" class="js-viewing-indelible">進学コース</a></li>
+<li><a href="../course/normal/index.html" class="js-viewing-indelible">普通コース</a></li>
+<li><a href="../course/information/index.html" class="js-viewing-indelible">情報処理コース</a></li>
+</ul>
+</li>
+<li class="nav03"><a href="../club/index.html" class="js-viewing-indelible">部活動</a>
+<ul class="sub">
+<li><a href="../club/index.html" class="js-viewing-indelible">部活動紹介</a></li>
+</ul>
+</li>
+<li class="nav04"><a href="../life/index.html" class="js-viewing-indelible">学校生活</a>
+<ul class="sub">
+<li><a href="../life/facilities/index.html" class="js-viewing-indelible">施設紹介</a></li>
+<li><a href="../life/event/index.html" class="js-viewing-indelible">年間行事</a></li>
+<li><a href="../calendar/index.html" class="js-viewing-indelible">行事カレンダー</a></li>
+<li><a href="../life/uniform/index.html" class="js-viewing-indelible">制服紹介</a></li>
+<li><a href="../school-trip/index.html" class="js-viewing-indelible">修学旅行</a></li>
+<li><a href="../hokushisai/index.html" class="js-viewing-indelible">北紫祭</a></li>
+<li><a href="../life/oneday/index.html" class="js-viewing-indelible">北陸高生の１日</a></li>
+<li><a href="../cafelife/index.html" class="js-viewing-indelible">カフェライフメニュー</a></li>
+</ul>
+</li>
+<li class="nav05"><a href="../career/index.html" class="js-viewing-indelible">進路/キャリア</a>
+<ul class="sub">
+<li><a href="../career/admission/index.html" class="js-viewing-indelible">大学進学実績</a></li>
+<li><a href="../career/employment/index.html" class="js-viewing-indelible">就職実績</a></li>
+</ul>
+</li>
+<li class="nav06"><a href="../admission/index.html" class="js-viewing-indelible">入学案内</a>
+<ul class="sub">
+<li><a href="../admission/guide/index.html" class="js-viewing-indelible">募集要項</a></li>
+<li><a href="../admission/schedule/index.html" class="js-viewing-indelible">入試日程</a></li>
+<li><a href="../admission/openschool/index.html" class="js-viewing-indelible">オープンスクール/学校説明会</a></li>
+<li><a href="../admission/price/index.html" class="js-viewing-indelible">学費について</a></li>
+<li><a href="../admission/qa/index.html" class="js-viewing-indelible">Q&amp;A</a></li>
+</ul>
+</li>
+</ul>
+</div></nav>
+</header>
+<div id="headerChange">
+<div class="headIn">
+<nav id="gnavSp" class="visible-xs navWrap"><ul class="gNav">
+<li class="nav01 nav">
+<p class="ttl">学校紹介</p>
+<ul class="sub">
+<li><a href="../about/greeting/index.html" class="js-viewing-indelible subIn">あいさつ</a></li>
+<li><a href="../about/history/index.html" class="js-viewing-indelible subIn">建学の精神/教育方針/開学140年の歴史</a></li>
+<li><a href="../about/policy/index.html" class="js-viewing-indelible subIn">本学の特色</a></li>
+<li><a href="../about/buddhism/index.html" class="js-viewing-indelible subIn">宗教教育</a></li>
+<li><a href="../about/group/index.html" class="js-viewing-indelible last subIn">グループ/ネットワーク</a></li>
+</ul>
+</li>
+<li class="nav02 nav">
+<p class="ttl">学び/コース</p>
+<ul class="sub">
+<li><a href="../course/super/index.html" class="js-viewing-indelible subIn">特別進学コース</a></li>
+<li><a href="../course/shingaku/index.html" class="js-viewing-indelible subIn">進学コース</a></li>
+<li><a href="../course/normal/index.html" class="js-viewing-indelible subIn">普通コース</a></li>
+<li><a href="../course/information/index.html" class="js-viewing-indelible last subIn">情報処理コース</a></li>
+</ul>
+</li>
+<li class="nav03"><a href="../club/index.html" class="js-viewing-indelible">部活動</a></li>
+<li class="nav04 nav">
+<p class="ttl">学校生活</p>
+<ul class="sub">
+<li><a href="../life/facilities/index.html" class="js-viewing-indelible subIn">施設紹介</a></li>
+<li><a href="../life/event/index.html" class="js-viewing-indelible subIn">年間行事</a></li>
+<li><a href="../calendar/index.html" class="js-viewing-indelible subIn">行事カレンダー</a></li>
+<li><a href="../life/uniform/index.html" class="js-viewing-indelible subIn">制服紹介</a></li>
+<li><a href="../school-trip/index.html" class="js-viewing-indelible subIn">修学旅行</a></li>
+<li><a href="../hokushisai/index.html" class="js-viewing-indelible subIn">北紫祭</a></li>
+<li><a href="../life/oneday/index.html" class="js-viewing-indelible subIn">北陸高生の１日</a></li>
+<li><a href="../cafelife/index.html" class="js-viewing-indelible last subIn">カフェライフメニュー</a></li>
+</ul>
+</li>
+<li class="nav05 nav">
+<p class="ttl">進路/キャリア</p>
+<ul class="sub">
+<li><a href="../career/admission/index.html" class="js-viewing-indelible subIn">大学進学実績</a></li>
+<li><a href="../career/employment/index.html" class="js-viewing-indelible last subIn">就職実績</a></li>
+</ul>
+</li>
+<li class="nav06 nav">
+<p class="ttl">入学案内</p>
+<ul class="sub">
+<li><a href="../admission/guide/index.html" class="js-viewing-indelible subIn">募集要項</a></li>
+<li><a href="../admission/schedule/index.html" class="js-viewing-indelible subIn">入試日程</a></li>
+<li><a href="../admission/openschool/index.html" class="js-viewing-indelible subIn">オープンスクール/学校説明会</a></li>
+<li><a href="../admission/price/index.html" class="js-viewing-indelible subIn">学費について</a></li>
+<li><a href="../admission/qa/index.html" class="js-viewing-indelible last subIn">Q&amp;A</a></li>
+</ul>
+</li>
+<li class="nav07"><a href="../bestrong/index.html" class="js-viewing-indelible">Be Strong. スペシャルインタビュー</a></li>
+<li class="nav08"><a href="index.html" class="js-viewing-indelible">MOVE ON!</a></li>
+<li class="nav09 flNav"><a href="../access/index.html" class="js-viewing-indelible inR">アクセス</a></li>
+<li class="nav10 flNav"><a href="../contact/index.html" class="js-viewing-indelible">資料請求</a></li>
+<li class="nav11 flNav"><a href="../contact/index.html" class="js-viewing-indelible inR">お問い合わせ</a></li>
+<li class="nav12 flNav"><a href="../privacy/index.html" class="js-viewing-indelible">プライバシーポリシー</a></li>
+<li class="nav13"><a href="#">×閉じる</a></li>
+</ul></nav>
+</div>
+<nav class="hidden-xs"><div id="gnav">
+<ul>
+<li class="nav01"><a href="../about/index.html" class="js-viewing-indelible">学校紹介</a>
+<ul class="sub">
+<li><a href="../about/greeting/index.html" class="js-viewing-indelible">あいさつ</a></li>
+<li><a href="../about/history/index.html" class="js-viewing-indelible">建学の精神/教育方針/開学140年の歴史</a></li>
+<li><a href="../about/policy/index.html" class="js-viewing-indelible">本学の特色</a></li>
+<li><a href="../about/buddhism/index.html" class="js-viewing-indelible">宗教教育</a></li>
+<li><a href="../about/group/index.html" class="js-viewing-indelible">グループ/ネットワーク</a></li>
+</ul>
+</li>
+<li class="nav02"><a href="../course/index.html" class="js-viewing-indelible">学び/コース</a>
+<ul class="sub">
+<li><a href="../course/super/index.html" class="js-viewing-indelible">特別進学コース</a></li>
+<li><a href="../course/shingaku/index.html" class="js-viewing-indelible">進学コース</a></li>
+<li><a href="../course/normal/index.html" class="js-viewing-indelible">普通コース</a></li>
+<li><a href="../course/information/index.html" class="js-viewing-indelible">情報処理コース</a></li>
+</ul>
+</li>
+<li class="nav03"><a href="../club/index.html" class="js-viewing-indelible">部活動</a>
+<ul class="sub">
+<li><a href="../club/index.html" class="js-viewing-indelible">部活動紹介</a></li>
+</ul>
+</li>
+<li class="nav04"><a href="../life/index.html" class="js-viewing-indelible">学校生活</a>
+<ul class="sub">
+<li><a href="../life/facilities/index.html" class="js-viewing-indelible">施設紹介</a></li>
+<li><a href="../life/event/index.html" class="js-viewing-indelible">年間行事</a></li>
+<li><a href="../calendar/index.html" class="js-viewing-indelible">行事カレンダー</a></li>
+<li><a href="../life/uniform/index.html" class="js-viewing-indelible">制服紹介</a></li>
+<li><a href="../school-trip/index.html" class="js-viewing-indelible">修学旅行</a></li>
+<li><a href="../hokushisai/index.html" class="js-viewing-indelible">北紫祭</a></li>
+<li><a href="../life/oneday/index.html" class="js-viewing-indelible">北陸高生の１日</a></li>
+<li><a href="../cafelife/index.html" class="js-viewing-indelible">カフェライフメニュー</a></li>
+</ul>
+</li>
+<li class="nav05"><a href="../career/index.html" class="js-viewing-indelible">進路/キャリア</a>
+<ul class="sub">
+<li><a href="../career/admission/index.html" class="js-viewing-indelible">大学進学実績</a></li>
+<li><a href="../career/employment/index.html" class="js-viewing-indelible">就職実績</a></li>
+</ul>
+</li>
+<li class="nav06"><a href="../admission/index.html" class="js-viewing-indelible">入学案内</a>
+<ul class="sub">
+<li><a href="../admission/guide/index.html" class="js-viewing-indelible">募集要項</a></li>
+<li><a href="../admission/schedule/index.html" class="js-viewing-indelible">入試日程</a></li>
+<li><a href="../admission/openschool/index.html" class="js-viewing-indelible">オープンスクール/学校説明会</a></li>
+<li><a href="../admission/price/index.html" class="js-viewing-indelible">学費について</a></li>
+<li><a href="../admission/qa/index.html" class="js-viewing-indelible">Q&amp;A</a></li>
+</ul>
+</li>
+</ul>
+</div></nav>
+</div>
+<script>
+ $(function(){
+     $(window).on('resize', function () {
+         if ($(window).width() >= 767) {
+             $(".navWrap").removeClass('closeMenu');
+         }
+     });
+     $(".navBtn").on("click", function () {
+         $(this).toggleClass('openMenu');
+         var scrollTop = $(window).scrollTop();
+         if (!$(".navWrap").hasClass('openMenu')) {
+             $(".navWrap")
+                 .removeClass('closeMenu').addClass('openMenu');
+            $('body').css({'width':'100%','position':'fixed','top':-scrollTop});
+         } else {
+             $(".navWrap")
+                 .removeClass('openMenu').addClass('closeMenu');
+            $('body').css({'width':'auto','position':'static','top':'0'});
+            $('body').scrollTop(scrollTop);
+         }
+         return false;
+     });
+ });
+</script>
+<div id="breadcrumbs" class="container"><ul>
+<li><a href="../index.html">ホーム</a></li>
+<li><a href="index.html">MOVE ON</a></li>
+<li>グローバルチャレンジプログラム</li>
+</ul></div>
+<div class="moveon_gcp_idxTtl">
+<h1><img src="../themes/hokuriku2017/img/moveon/gcp/txt-main1.png" alt="GLOBAL CHALLENGE PROGRAM"></h1>
+<p><img src="../themes/hokuriku2017/img/moveon/gcp/txt-main2.png" alt="グローバルチャレンジプログラム"></p>
+</div>
+<div id="moveon_gcp">
+<div class="bgGcp">
+<div class="container">
+<div class="content">
+<h2>
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-title1.png" alt="What's GCP" class="js-ofi">
+<span class="subtxt">グローバルチャレンジプログラム<span class="inB">とは</span></span>
+</h2>
+<div class="whiteShadowBox">
+<h3>テーマは「世界的視野の獲得」。<br /><span class="inB">より広い視点で</span><span class="inB">自己実現に向け踏み出す</span><span class="inB">第一歩。</span></h3>
+<p>グローバルチャレンジプログラム（GCP）は、第2学年の生徒を対象としたプログラムです。<br>
+8日間の日程で、ハーバード大学やマサチューセッツ工科大学(MIT)といった<br class="hidden-xs hidden-sm">
+世界トップレベルの大学が集まるボストンに滞在。ディスカッションやプレゼンテーション、<br class="hidden-xs hidden-sm">
+現地大学生とのワークショップなど、さまざまな体験型の研修に参加。<br>
+現地で「本物」を体験しながら、多様性の中に身をおくことで異文化理解力を養います。<br>
+GCPのテーマは「世界的視野の獲得」。世界の一流・本物を実体験することにより、<br class="hidden-xs hidden-sm">
+生徒自らがより広い視点で自己実現に向けての第一歩を踏み出して欲しいという願いから<br class="hidden-xs hidden-sm">
+プログラムを設定しています。</p>
+</div>
+<p class="asterisk">
+2019年度からカリフォルニア州Los Angelesが研修地となります。<br>
+現地大学生とのワークショップ等は、カリフォルニア大学他で行います。
+</p>
+</div>
+</div>
+</div>
+<div class="bgNone">
+<div class="container">
+<div class="content">
+<h2><img src="../themes/hokuriku2017/img/moveon/gcp/txt-title2.png" alt="2018 Report" class="js-ofi">
+<span class="subtxt">2018年度レポート</span>
+</h2>
+<dl class="dateDl">
+<dt>
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-2018-day1.png" alt="Day1 7/15 sun."/>
+</dt>
+<dd>
+<p>北陸高校からボストンに向けて笑顔で出発です。フライト時間は合計20時間の長旅です。行ってらっしゃい！Be Strong！</p>
+<p><a href="../diary/today/entry-2402.html">詳しい内容はこちら</a></p>
+</dd>
+</dl>
+<hr class="rightup"/>
+<dl class="dateDleven">
+<dt>
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-2018-day2.png" alt="Day2 7/16 mon."/>
+</dt>
+<dd>
+<p>自己紹介を兼ねたモーニングセッションから研修がスタート。午後はMITの訪問です。初日から早速密度の濃い内容です！</p>
+<p><a href="../diary/today/entry-2403.html">詳しい内容はこちら</a></p>
+</dd>
+</dl>
+<hr class="leftup"/>
+<dl class="dateDl">
+<dt>
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-2018-day3.png" alt="Day3 7/17 tue."/>
+</dt>
+<dd>
+<p>研修2日目のテーマは「自己理解」。自分を知り、将来の目標を語り合います。英語での会話にも少し余裕が出てきました！</p>
+<p><a href="../diary/today/entry-2454.html">詳しい内容はこちら</a></p>
+</dd>
+</dl>
+<hr class="rightup"/>
+<dl class="dateDleven">
+<dt>
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-2018-day4.png" alt="Day4 7/18 wed."/>
+</dt>
+<dd>
+<p>研修3日目はボストンの学校を訪問。様々なアクティビティを通してアメリカの同年代の学生たちと交流を深めました。</p>
+<p><a href="../diary/today/entry-2461.html">詳しい内容はこちら</a></p>
+</dd>
+</dl>
+<hr class="leftup"/>
+<dl class="dateDl">
+<dt>
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-2018-day5.png" alt="Day5 7/19 thu."/>
+</dt>
+<dd>
+<p>研修4日目の午後はハーバード大学の見学です。現役のハーバード生が広大なキャンパスを案内してくれました。</p>
+<p><a href="../diary/today/entry-2462.html">詳しい内容はこちら</a></p>
+</dd>
+</dl>
+<hr class="rightup"/>
+<dl class="dateDleven">
+<dt>
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-2018-day6.png" alt="Day6 7/20 fri."/>
+</dt>
+<dd>
+<p>研修5日目。これまで研修を通してきて、一人ひとりの意識の変化や、生徒同士の関係性がどんどん深まるのがわかります。</p>
+<p><a href="../diary/today/entry-2463.html">詳しい内容はこちら</a></p>
+</dd>
+</dl>
+<hr class="leftup"/>
+<dl class="dateDl">
+<dt>
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-2018-day7.png" alt="Day7 7/21 sat."/>
+</dt>
+<dd>
+<p>研修最終日、この日はいよいよファイナルプレゼンテーション！生徒たちは達成感と自信に満ち溢れた笑顔でいっぱいです。</p>
+<p><a href="../diary/today/entry-2464.html">詳しい内容はこちら</a></p>
+</dd>
+</dl>
+<hr class="rightup"/>
+<dl class="dateDleven">
+<dt>
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-2018-day8.png" alt="Day8 7/22 sun."/>
+</dt>
+<dd>
+<p>充実したプログラムを終え、無事に北陸高校に帰ってきました。参加した生徒たちにとってどんな8日間だったでしょうか。</p>
+<p><a href="../diary/today/entry-2465.html">詳しい内容はこちら</a></p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div id="loopslider">
+<ul>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide1.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide2.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide3.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide4.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide5.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide6.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide7.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide8.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide9.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide10.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide11.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide12.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide13.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide14.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide15.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide16.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide17.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide18.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide19.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide20.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide21.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide1.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide2.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide3.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide4.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide5.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide6.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide7.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide8.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide9.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide10.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide11.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide12.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide13.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide14.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide15.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide16.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide17.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide18.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide19.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide20.png" alt="" /></li>
+<li><img src="../themes/hokuriku2017/img/moveon/gcp/img-slide21.png" alt="" /></li>
+</ul>
+</div>
+<div class="bgYellow">
+<div class="container">
+<h2 class="endProgram">
+<img src="../themes/hokuriku2017/img/moveon/gcp/txt-title3.png" alt="voice" class="js-ofi">
+<span class="yelBox">
+<span class="inn">GCPに参加した生徒の感想</span>
+</span>
+</h2>
+<div class="vsection">
+<div class="h3s js-matchHeight">
+<ul>
+<li class="hidden-xs"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo1.png" alt="朝倉 雪衣" /></li>
+</ul>
+</div>
+<div class="vsectionIn cp_box js-matchHeight">
+<input id="cp01" type="checkbox">
+<label for="cp01"></label>
+<div class="cp_container">
+<p>このプログラムに参加するまで、英語の仕事をしたいのは確かなことだったけど私には明確な将来の夢がありませんでした。ですが、アメリカの人たちに触れ、ケビンさんのお話を聞いてから、日本の文化を伝えることの楽しさを知りました。ホストファミリーに京都で着物を着た写真を見せ“This clothes that she is wearing is KIMONO!”と言ったときには “What is it ?”と言われ、日本の代表文化と言っても過言ではない着物も、世界ではあまり知られていないのだと大きな衝撃を受けました。日本の文化は素晴らしいものばかりです。私が幼い頃、英語を習い始めたきっかけのように、誰かが日本に興味を示すきっかけのようなこと、あるいは何かの架け橋になるようなことがしたいと、このプログラムを通して発見することができました。</p>
+<p>自分の英語においては、予想以上の話せなさ、聴き取れなさに、何を言っているのかわからず相手が困ってしまうことも多々あり、何度も落ち込み，早く日本に帰りたい、と思ってしまうこともありました。そんな時自分を前向きにさせてくれたのは、幼い頃からの夢です。自分が置かれている状況に負けそうなときも、初心を思い出させてくれました。</p>
+<p>ケビンさんは「夢をずっと口に出していれば、それは本当に叶う」とおっしゃっていましたが、本当にその通りだと思います。私は、どうしても夢を口に出すのをためらってしまいます。それは自分の夢を笑われるのが怖いからだと思います。けれど、どんなに笑われてもそれを笑い飛ばせるくらい信念の強い女性になりたいです。</p>
+<p>今回のプログラムは、これからの人生での大きな分岐点になりました。悔しい事も沢山経験して、新しい事もたくさん吸収して、このことが大学受験への頑張る一番の源になると思います。今回、携わってくれた多くの人に感謝していつか恩返しができる大人になりたいです。</p>
+<div class="midPhoto hidden-sm hidden-md hidden-lg"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo1.png" alt="朝倉 雪衣" /></div>
+<div class="sign">
+<span>普通科　<span class="inB">進学コース</span></span><br />朝倉 雪衣
+</div>
+</div>
+</div>
+</div>
+<div class="vsection2">
+<div class="h3s js-matchHeight">
+<ul>
+<li class="hidden-xs"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo2.png" alt="石津 恵吾" /></li>
+</ul>
+</div>
+<div class="vsectionIn cp_box js-matchHeight">
+<input id="cp02" type="checkbox">
+<label for="cp02"></label>
+<div class="cp_container">
+<p>僕は、自分の個性を見つけたり表現したりすることが大きな挑戦だと思い、このプログラムに参加しました。僕は自分の個性を見つける事がずっと不得意でした。なので他人の個性を見出すことは、自分にとってはさらに難しいものだと考えていました。</p>
+<p>でも一緒に参加した仲間たちは、私の個性を見つけ、それを認めてくれていました。例えば、ある仲間は僕には責任感があると言ってくれました。自分では今までそのことに気が付いてなかったけれど、もしかするとそうかもしれないと思え、他人からみた自分の側面を知ることができました。</p>
+<p>このプログラムに参加して、大きなことを学びました。それは、過去の失敗を引きずるのではなく、失敗をバネに前に進むことです。これまで僕は一度失敗を経験すると、次は躊躇してしまいチャレンジすることをやめていました。しかし、アメリカ滞在中は、少しの失敗も恐れませんでした。僕と同じ失敗をした仲間がいれば、なぜうまくいかなかったのかを話し、失敗をどのように克服するかなど、次の方法を一緒に見つけることができました。僕が失敗したときも、友達はけなさず、むしろ励ましてくれました。仲間と共に挑戦すれば、たとえ失敗しても一緒に乗り越えればいい。</p>
+<p>このプログラムを通して、自分自身を成長させることができたと思います。これからさらに英語を勉強していきたいし、夢を実現させるために全力を尽くしたいです。このプログラムに関わるすべての方に感謝をすると共に、ボストンで貴重な経験をしたことを永遠に忘れません。</p>
+<div class="midPhoto hidden-sm hidden-md hidden-lg"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo2.png" alt="石津 恵吾" /></div>
+<div class="sign">
+<span>普通科　<span class="inB">特別進学コース</span><span class="inB">（スーパー特進クラス）</span></span><br />石津 恵吾
+</div>
+</div>
+</div>
+</div>
+<div class="vsection">
+<div class="h3s js-matchHeight">
+<ul>
+<li class="hidden-xs"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo3.png" alt="大石 剛寛" /></li>
+</ul>
+</div>
+<div class="vsectionIn cp_box js-matchHeight">
+<input id="cp03" type="checkbox">
+<label for="cp03"></label>
+<div class="cp_container">
+<p>僕がグローバルチャレンジプログラムに申し込もうと思った動機は、アメリカに行ってみたいという単純なものでした。海外旅行に憧れていたので、わくわくした気持ちで満ち溢れていました。僕が思っていた以上にアメリカで過ごした七日間は、僕にとって密度の濃い、充実した七日間でした。</p>
+<p>このプログラムで達成したいことの一つに、人前で堂々と話せるようになるということがありました。人前で堂々と話せるようになるためには、自分の思っていることを相手に伝えることが必要です。だから僕は勇気をだして、ホストファミリーに自分が思っていることを伝えてみました。すると、彼らはそれを受け入れてくれました。そのとき僕は自分の気持ちが相手に伝わってとてもうれしかったです。</p>
+<div class="midPhoto hidden-sm hidden-md hidden-lg"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo3.png" alt="大石 剛寛" /></div>
+<div class="sign">
+<span>普通科　<span class="inB">特別進学コース</span><span class="inB">（特進クラス）</span></span><br />大石 剛寛
+</div>
+</div>
+</div>
+</div>
+<div class="vsection2">
+<div class="h3s js-matchHeight">
+<ul>
+<li class="hidden-xs"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo4.png" alt="河口 岳志" /></li>
+</ul>
+</div>
+<div class="vsectionIn cp_box js-matchHeight">
+<input id="cp04" type="checkbox">
+<label for="cp04"></label>
+<div class="cp_container">
+<p>モーニングセッションでは、ネガティブシンキングとポジティブシンキングについて学びました。そこで、自分にはポジティブシンキングと他人と会話する自信が欠けていることに気付けました。その後、自分の弱点である自信のなさとネガティブシンキングを克服する方法を考えた時、失敗を恐れず、より積極的に他人に自ら話しかけるべきだということが分かりました。それから、ホストファミリーや友達、先生方と以前よりも積極的に話しはじめました。そうすることで私は、良い会話というものはとても楽しいもので、自分にとって良い経験になるということに気付くことができました。</p>
+<p>最後に、私はこのプログラムを通じて大きく成長できたと思っています。このプログラムで得た良い経験を将来につなげていきたいです。決してあきらめないことと、視点を変えることで、夢を実現するためのいろいろな方法が見えてくるかもしれないということを、グローバルチャレンジプログラムで学ぶことができました。</p>
+<div class="midPhoto hidden-sm hidden-md hidden-lg"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo4.png" alt="河口 岳志" /></div>
+<div class="sign">
+<span>普通科　<span class="inB">特別進学コース</span><span class="inB">（スーパー特進クラス）</span></span><br />河口 岳志
+</div>
+</div>
+</div>
+</div>
+<div class="vsection">
+<div class="h3s js-matchHeight">
+<ul>
+<li class="hidden-xs"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo5.png" alt="久津見 朋也" /></li>
+</ul>
+</div>
+<div class="vsectionIn cp_box js-matchHeight">
+<input id="cp05" type="checkbox">
+<label for="cp05"></label>
+<div class="cp_container">
+<p>僕にはこのプログラムから学んだことがあります。それは“積極性”です。アメリカの人たちはとても元気に話をします。彼らは日本人のように恥ずかしがることをしません。僕はその違いに驚きました。僕は友達にはたくさん話をしますが、初めて会う人とは上手に話すことができません。けれど、アメリカでは自分から積極的に話すように努めました。上手く話すことができないときも、アメリカの人たちは僕をしっかりフォローしてくれました。とても嬉しかったです。僕も、同じように人を手助けできる人になりたいと思いました。</p>
+<div class="midPhoto hidden-sm hidden-md hidden-lg"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo5.png" alt="久津見 朋也" /></div>
+<div class="sign">
+<span>普通科　<span class="inB">特別進学コース</span><span class="inB">（特進クラス）</span></span><br />久津見 朋也
+</div>
+</div>
+</div>
+</div>
+<div class="vsection2">
+<div class="h3s js-matchHeight">
+<ul>
+<li class="hidden-xs"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo6.png" alt="森本 翔太" /></li>
+</ul>
+</div>
+<div class="vsectionIn cp_box js-matchHeight">
+<input id="cp06" type="checkbox">
+<label for="cp06"></label>
+<div class="cp_container">
+<p>僕がこのプログラムで直面した課題は、英語を聞くことはできるが、十分に話すことができないと言うことです。その原因は、自分自身がしっかりとした意識を持っていなかったことにあると考えます。また僕は苛立ちと劣等感を感じていました。例えば、モーニングセッション、ローカルハイスクールの生徒たちと対面するときです。モーニングセッションは難しく、英語の意味は聞き取ることができますが、自分の考えを上手くメンバーに伝えることができませんでした。ローカルハイスクールの生徒たちと対面するときは少しの言葉しか聞き取ることができず、それゆえ十分に話すことができませんでした。</p>
+<p>僕は自分の英語力についての自信を失っていました。しかし決して挑戦を諦めませんでした。英語が上手く話せなくても、たくさんのことを話そうと挑戦する心が必要だと思いました。海外で話す英語と、日本の学校で勉強する英語は全く異なっていることを痛感しました。</p>
+<p>そして、自身の前向きな精神で困難を乗り越えました。僕は聞きたいことを聞くことができました。このプログラムはとても重要な経験になると思います。決してこの経験を忘れないでしょう。日本に帰ったらもっと英語を勉強しようと決めました。</p>
+<div class="midPhoto hidden-sm hidden-md hidden-lg"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo6.png" alt="森本 翔太" /></div>
+<div class="sign">
+<span>普通科　<span class="inB">特別進学コース</span><span class="inB">（特進クラス）</span></span><br />森本 翔太
+</div>
+</div>
+</div>
+</div>
+<div class="vsection">
+<div class="h3s js-matchHeight">
+<ul>
+<li class="hidden-xs"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo7.png" alt="矢谷 駿人" /></li>
+</ul>
+</div>
+<div class="vsectionIn cp_box js-matchHeight">
+<input id="cp07" type="checkbox">
+<label for="cp07"></label>
+<div class="cp_container">
+<p>僕は今回の研修を終えて、とても世界が広がったように感じました。また、英語が将来、とても大事になると思いました。アメリカでは見たことないものばかりで、異文化理解という点でもとてもいい機会になりました。アメリカでは、見るもの全てが驚きにあふれていました。特に広告の煽り文句などは、日本では感じられないユーモアを感じました。</p>
+<p>帰国したあと、もう少し気になる所もあったので、中学校の時のALTに質問に行って、細かいことをたくさん聞きました。これらのことから、僕は、もっと海外に行ってその国の文化や経済、学校などたくさんのことに関して学んでみたいと思いました。そのためにもまず英語をしっかり自分のものにしたいです。そして日本のこともしっかり理解したいです。グローバルな人材になれるように頑張りたいと感じました。</p>
+<div class="midPhoto hidden-sm hidden-md hidden-lg"><img src="../themes/hokuriku2017/img/moveon/gcp/img-photo7.png" alt="矢谷 駿人" /></div>
+<div class="sign">
+<span>普通科　<span class="inB">特別進学コース</span><span class="inB">（特進クラス）</span></span><br />矢谷 駿人
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="linkGcp container">
+<a href="../moveon2017/gcp.html" class="link2017">
+<div class="txts">
+2017 Report
+</div>
+</a>
+</div>
+</div>
+<footer id="footer">
+<div id="footNav" class="hidden-xs"><div class="footNavIn container"><div class="row">
+<ul>
+<li><a href="../about/index.html">学校紹介</a>
+<ul>
+<li><a href="../about/greeting/index.html">あいさつ</a></li>
+<li><a href="../about/history/index.html">建学の精神/教育方針/開学140年の歴史</a></li>
+<li><a href="../about/policy/index.html">本学の特色</a></li>
+<li><a href="../about/buddhism/index.html">宗教教育</a></li>
+<li><a href="../about/group/index.html">グループ/ネットワーク</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="../course/index.html">学び/コース</a>
+<ul>
+<li><a href="../course/super/index.html" class="js-viewing-indelible">普通科特別進学コース<br>スーパー特進クラス／<br>特進クラス</a></li>
+<li><a href="../course/shingaku/index.html" class="js-viewing-indelible">普通科 進学コース</a></li>
+<li><a href="../course/normal/index.html" class="js-viewing-indelible">普通科 普通コース</a></li>
+<li><a href="../course/information/index.html" class="js-viewing-indelible">商業科 情報処理コース</a></li>
+</ul>
+</li>
+<li><a href="../club/index.html">部活動</a>
+<ul>
+<li><a href="../club/index.html" class="js-viewing-indelible">部活動紹介</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="../life/index.html">学校生活</a>
+<ul>
+<li><a href="../life/facilities/index.html">施設紹介</a></li>
+<li><a href="../life/event/index.html">年間行事</a></li>
+<li><a href="../calendar/index.html">行事カレンダー</a></li>
+<li><a href="../life/uniform/index.html">制服紹介</a></li>
+<li><a href="../school-trip/index.html">修学旅行</a></li>
+<li><a href="../hokushisai/index.html">北紫祭</a></li>
+<li><a href="../life/oneday/index.html">北陸高生の１日</a></li>
+<li><a href="../cafelife/index.html">カフェライフメニュー</a></li>
+</ul>
+</li>
+<li><a href="../career/index.html">進路/キャリア</a>
+<ul>
+<li><a href="../career/admission/index.html">大学進学実績</a></li>
+<li><a href="../career/employment/index.html">就職実績</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="../admission/index.html">入学案内</a>
+<ul>
+<li><a href="../admission/guide/index.html">募集要項</a></li>
+<li><a href="../admission/schedule/index.html">入試日程</a></li>
+<li><a href="../admission/openschool/index.html">オープンスクール/学校説明会</a></li>
+<li><a href="../admission/price/index.html">学費について</a></li>
+<li><a href="../admission/qa/index.html">Q&amp;A</a></li>
+</ul>
+</li>
+<li><a href="../bestrong/index.html">Be Strong.<br>スペシャルインタビュー</a></li>
+<li><a href="index.html">MOVE ON!</a></li>
+<li><a href="../student/parents/index.html">保護者の方へ</a></li>
+<li><a href="https://my.ebook5.net/hokuriku/guide/" target="_blank">デジタルパンフレット</a></li>
+</ul>
+</div></div></div>
+<ul id="footNavSp" class="visible-xs">
+<li class="js-autoheight-r"><a href="../about/index.html">学校紹介</a></li>
+<li class="js-autoheight-r"><a href="../course/index.html">学び/コース</a></li>
+<li class="js-autoheight-r"><a href="../club/index.html">部活動</a></li>
+<li class="js-autoheight-r"><a href="../life/index.html">学校生活</a></li>
+<li class="js-autoheight-r"><a href="../career/index.html">進路/キャリア</a></li>
+<li class="js-autoheight-r"><a href="../admission/index.html">入学案内</a></li>
+<li class="line2 js-autoheight-r"><a href="../bestrong/index.html" class="js-viewing-indelible">Be Strong.<br>スペシャルインタビュー</a></li>
+<li class="line2 js-autoheight-r"><a href="index.html" class="js-viewing-indelible">MOVE ON!<br>&nbsp;</a></li>
+<li class="js-autoheight-r"><a href="../access/index.html">アクセス</a></li>
+<li class="js-autoheight-r"><a href="../contact/index.html">資料請求</a></li>
+<li class="js-autoheight-r"><a href="../contact/index.html">お問い合わせ</a></li>
+<li class="small js-autoheight-r"><a href="../privacy/index.html">プライバシーポリシー</a></li>
+<li class="small js-autoheight-r"><a href="../student/parents/index.html">保護者の方へ</a></li>
+<li class="small js-autoheight-r"><a href="../student/graduates/index.html">卒業生の方へ</a></li>
+<li class="small js-autoheight-r"><a href="https://my.ebook5.net/hokuriku/guide/">デジタルパンフレット</a></li>
+<li class="js-autoheight-r"><a href="../sitemap/index.html">サイトマップ</a></li>
+</ul>
+<div id="footBot"><div class="footBotIn container"><div class="row">
+<div class="footBotL">
+<p class="site hidden-xs">北陸学園 北陸高等学校</p>
+<p class="info hidden-xs">〒910-0017 福井市文京1丁目8-1 <br>TEL：0776-23-0321　FAX：0776-27-1863 <br class="visible-sm"><a href="../contact/index.html">お問い合わせ</a></p>
+</div>
+<div class="footBotR">
+<ul class="hidden-xs">
+<li><a href="../sitemap/index.html">サイトマップ</a></li>
+<li><a href="../privacy/index.html">プライバシーポリシー</a></li>
+</ul>
+<p class="copy">&copy; 2017 北陸学園 北陸高等学校 All Rights Reserved.</p>
+</div>
+</div></div></div>
+<p id="page-top"><a href="#wrap"></a></p>
+</footer>
+<script>
+var $window = $(window), //ウィンドウを指定
+$content = $("#mainv,#breadcrumbs"), //#content部分
+$chenge = $("#headerChange"), //#change部分
+topContent = $content.offset().top; //#contentの位置を取得
+
+var sticky = false;
+
+$window.on("scroll", function () {
+	if ($window.scrollTop() > topContent) {　//scroll位置が#contentの上にある場合
+		if ( sticky === false ){
+		$chenge.fadeIn();　//#change部分が上がる。
+		sticky = true;
+	}
+} else {
+	if ( sticky === true ){　//scroll位置が下にある場合
+	$chenge.slideUp();//#change部分が降りてくる。
+	sticky = false;
+}
+}
+});
+$window.trigger("scroll");
+</script>
+<script>
+$(function() {
+    var topBtn = $('#page-top');
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 80) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+</script>
+</div>
+</body>
+
+<!-- Mirrored from www.hokuriku.ed.jp/moveon/gcp.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Mar 2025 11:27:56 GMT -->
+</html>
